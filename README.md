@@ -1,49 +1,50 @@
-# Data Science Foundations
+# Data Science Foundations – Companion Repository
 
 ## Companion Repository
 
-This repository is a **study companion and practical guide** for a *Data Science Foundations* book or course.
+This repository is a **study companion and practical guide** for building strong foundations in **Data Science**.  
 
-Its purpose is to provide **clear explanations, mathematical intuition, and hands-on Python implementations** covering the core concepts every data scientist should deeply understand — beyond tools and frameworks.
+It is designed to help learners bridge the gap between theory and practice by providing:
 
-📌 This repository focuses on **first principles**, reproducibility, and practical reasoning.
+- Clear, original explanations of key concepts in Data Science
+- Step-by-step derivations and examples
+- Python implementations and simulations
+- Visualizations to enhance understanding
+- Original exercises and solutions for hands-on learning
+
+> 📌 **Important:** This repository does **not** contain any proprietary book content. All materials are independently created for educational purposes.
 
 ---
 
 ## 🎯 Who This Repository Is For
 
-This repository is designed for:
+This repository is ideal for:
 
-- Aspiring **Data Scientists and Analysts**
-- Engineers transitioning into **data-focused roles**
-- Students studying **data science, statistics, or applied ML**
-- Practitioners who want to **strengthen core foundations**
-- Interview preparation for **data science & analytics roles**
-
-If you want to understand *why* models work — not just how to run them — this repo is for you.
+- Students learning Data Science, Analytics, or AI
+- Professionals refreshing their foundational knowledge
+- Anyone preparing for Data Science interviews
+- Educators looking for teaching resources
 
 ---
 
 ## 🧠 Core Topics Covered
 
-The repository covers the foundational pillars of Data Science:
+The repository is structured around the key building blocks of Data Science:
 
-- **Data Wrangling & Exploration**
-- **Probability & Statistics**
-- **Linear Algebra for Data Science**
-- **Data Visualization & Storytelling**
+- **Python for Data Science** (Numpy, Pandas, Matplotlib)
+- **Statistics & Probability**
 - **Exploratory Data Analysis (EDA)**
-- **Statistical Inference**
-- **Regression & Classification Basics**
-- **Bias, Variance & Model Evaluation**
-- **Experimental Design & A/B Testing**
-- **Reproducible Data Science**
+- **Data Cleaning & Preprocessing**
+- **Data Visualization & Storytelling**
+- **Foundations of Machine Learning**
+- **Databases & SQL for Data Science**
+- **Applied Projects & Exercises**
 
-Each topic emphasizes:
-- Intuition
-- Mathematical understanding
-- Practical implementation
-- Real-world data reasoning
+Each topic is presented with a focus on:
+
+- Conceptual clarity
+- Practical coding examples
+- Real-world data applications
 
 ---
 
@@ -56,38 +57,39 @@ data-science-foundations/
 ├── LICENSE
 ├── requirements.txt
 │
-├── 01-data-wrangling/
+├── 01-python-for-ds/
 │   ├── README.md
-│   ├── pandas_fundamentals.ipynb
-│   └── missing_data_strategies.ipynb
+│   ├── basics.ipynb
+│   └── exercises.md
 │
-├── 02-exploratory-data-analysis/
-│   ├── eda_principles.ipynb
-│   ├── distributions_outliers.ipynb
-│   └── visual_eda.ipynb
-│
-├── 03-probability-statistics/
+├── 02-statistics-probability/
+│   ├── descriptive_stats.ipynb
 │   ├── probability_basics.ipynb
-│   ├── random_variables.ipynb
-│   └── sampling_distributions.ipynb
+│   └── distributions.ipynb
 │
-├── 04-statistical-inference/
-│   ├── confidence_intervals.ipynb
-│   ├── hypothesis_testing.ipynb
-│   └── ab_testing.ipynb
+├── 03-eda/
+│   ├── data_summary.ipynb
+│   ├── visualization.ipynb
+│   └── case_study.ipynb
 │
-├── 05-linear-models/
-│   ├── linear_regression_from_scratch.ipynb
-│   ├── logistic_regression.ipynb
-│   └── model_assumptions.ipynb
+├── 04-data-cleaning/
+│   ├── missing_data.ipynb
+│   ├── feature_engineering.ipynb
+│   └── preprocessing.ipynb
 │
-├── 06-model-evaluation/
-│   ├── bias_variance.ipynb
-│   ├── cross_validation.ipynb
-│   └── metrics_explained.ipynb
+├── 05-data-visualization/
+│   ├── matplotlib_seaborn.ipynb
+│   ├── interactive_plots.ipynb
+│   └── dashboards.ipynb
 │
-├── datasets/
-│   └── README.md
+├── 06-ml-foundations/
+│   ├── linear_models.ipynb
+│   ├── clustering.ipynb
+│   └── evaluation_metrics.ipynb
+│
+├── 07-sql-databases/
+│   ├── sql_queries.ipynb
+│   └── case_study.ipynb
 │
 └── utils/
-    └── plotting.py
+    └── helper_functions.py
